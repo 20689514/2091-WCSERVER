@@ -2,8 +2,6 @@
 //Author: Chrisjohn G. Crisostomo
 //Section: WD-201
 
-//Use require() to import local module
-
 var http = require('http');
 
 var server = http.createServer(function (req, res) {
@@ -19,6 +17,6 @@ var server = http.createServer(function (req, res) {
   } else res.end('Invalid Request!');
 });
 
-server.listen(5000); //6 - listen for any incoming requests
+server.listen(5000);
 
 console.log('Node.js web server at port 5000 is running..');
