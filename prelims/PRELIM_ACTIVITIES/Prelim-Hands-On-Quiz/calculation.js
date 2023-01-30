@@ -16,14 +16,14 @@ var calcu = {
     return a / b;
   },
 
+  ratePerHour: 300,
+  hourWork: 4,
+  day: 6,
   rateperhr: 300,
   tax: 720,
   sss: 1200,
   pagibig: 300,
   phealth: 400,
-  deduction: this.tax + this.sss + this.pagibig + this.phealth,
-  grossS: this.rateperhr * 24,
-  netS: this.grossS - this.deduction,
 };
 
 module.exports = calcu;
