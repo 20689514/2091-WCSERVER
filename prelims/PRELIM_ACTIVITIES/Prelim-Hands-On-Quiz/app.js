@@ -8,7 +8,7 @@ http
     res.write('<br>Difference: ' + calc.subtract(6, 2));
     res.write('<br>Product: ' + calc.multiply(6, 2));
     res.write('<br>Quotient: ' + calc.divide(6, 2));
-    res.write('<br>Quotient: ' + calc.rateperhr());
+    res.write('<br>Quotient: ' + calc.rateperhr);
 
     res.end();
   })
