@@ -13,5 +13,3 @@ http
     res.end();
   })
   .listen(8080);
-
-exports.rateperhr = this.rateperhr;
