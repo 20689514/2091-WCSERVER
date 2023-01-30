@@ -6,7 +6,7 @@ http
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write('<br>Quotient: ' + calc.rate);
 
-    res.write('<br>Quotient: ' + calc.rate);
+    res.write('<br>Quotient: ' + calc.tax);
 
     res.end();
   })
