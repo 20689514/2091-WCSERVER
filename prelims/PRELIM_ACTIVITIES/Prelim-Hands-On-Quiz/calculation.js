@@ -1,14 +1,13 @@
-exports.rate = 300;
-exports.tax = 720;
-exports.sss = 1200;
-exports.pagibig = 300;
-exports.phealth = 400;
-exports.deductions =
-  exports.tax + exports.sss + exports.pagibig + exports.phealth;
-exports.grossS = exports.rate * 24;
-exports.netS = exports.grossS - exports.deductions;
+rate: 300,
+tax: 720,
+sss: 1200,
+pagibig: 300,
+phealth: 400,
+deductions: tax + sss + pagibig + phealth;
+grossS: rate * 24,
+netS: grossS - deductions
 
-var calcu = {
+var calcu: {
   add: function add(a, b) {
     return a + b;
   },
@@ -23,4 +22,13 @@ var calcu = {
   },
 };
 
-module.exports = calcu;
+module.exports: calcu;
+
+rateperhr: 300,
+tax: 720,
+sss: 1200,
+pagibig: 300,
+phealth: 400,
+deductions: tax + sss + pagibig + phealth,
+grossS: rate * 24,
+netS: grossS - deductions,
