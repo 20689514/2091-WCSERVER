@@ -21,6 +21,8 @@ var calcu = {
   divide: function divide(a, b) {
     return a / b;
   },
+
+  rateperhr: 300,
 };
 
 module.exports = calcu;
