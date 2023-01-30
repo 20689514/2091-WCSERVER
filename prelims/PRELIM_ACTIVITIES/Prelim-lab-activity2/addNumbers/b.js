@@ -1,3 +1,12 @@
 var calc = require('./a.js');
+var http = require('http');
 
-console.log(calc.rate);
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+
+    res.write('<br>Quotient: ' + calc.rate);
+
+    res.end();
+  })
+  .listen(8080);
