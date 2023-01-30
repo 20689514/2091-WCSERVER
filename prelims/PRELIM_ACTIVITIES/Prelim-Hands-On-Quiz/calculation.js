@@ -1,13 +1,8 @@
-rate: 300,
-tax: 720,
-sss: 1200,
-pagibig: 300,
-phealth: 400,
-deductions: tax + sss + pagibig + phealth;
-grossS: rate * 24,
-netS: grossS - deductions
+//Task Name: Prelim Hands On
+//Author: Chrisjohn G. Crisostomo
+//Section: WD-201
 
-var calcu: {
+var calcu = {
   add: function add(a, b) {
     return a + b;
   },
@@ -20,15 +15,15 @@ var calcu: {
   divide: function divide(a, b) {
     return a / b;
   },
+
+  rateperhr: 300,
+  tax: 720,
+  sss: 1200,
+  pagibig: 300,
+  phealth: 400,
+  deduction: this.tax + this.sss + this.pagibig + this.phealth,
+  grossS: this.rateperhr * 24,
+  netS: this.grossS - this.deduction,
 };
 
-module.exports: calcu;
-
-rateperhr: 300,
-tax: 720,
-sss: 1200,
-pagibig: 300,
-phealth: 400,
-deductions: tax + sss + pagibig + phealth,
-grossS: rate * 24,
-netS: grossS - deductions,
+module.exports = calcu;
