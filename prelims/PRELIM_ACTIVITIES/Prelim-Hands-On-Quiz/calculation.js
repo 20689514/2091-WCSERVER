@@ -15,7 +15,7 @@ var calcu = {
 
 module.exports = calcu;
 
-exports.rateperhr = '300';
+exports.rateperhr = 300;
 exports.tax = 720;
 exports.sss = 1200;
 exports.pagibig = 300;
