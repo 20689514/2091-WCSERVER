@@ -1,5 +1,5 @@
 var msg = require('./msg.js');
 
-msg.greet('Chrisjohn');
-msg.congrats('Chrisjohn');
-msg.farewell('Chrisjohn');
+msg.greet('Chrisjohn Crisostomo');
+msg.congrats('Chrisjohn Crisostomo');
+msg.farewell('Chrisjohn Crisostomo');
