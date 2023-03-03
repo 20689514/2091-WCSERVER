@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li, a{
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+}     
+
+.nav a:hover{
+    color: white;
+    background-color: #000000;
+} 
+
+.nav ul{
+    background-color: #93BFCF;
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h2, p, #myfile{
+    margin: 7px 0 0 15px;
+}
+
+button{
+    margin-left: 27px;
+}
+
+input{
+    padding:3px;
+}
