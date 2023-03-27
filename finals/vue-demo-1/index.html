@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Insert below the CDN link to Vue -->
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <title>Vue Js Demonstration Discussion</title>
+</head>
+<body>
+    <!-- Create a div tag with "app" id-->
+    <div id="app">
+        <p>{{ title }} - {{ author }} - {{ age }}</p>
+        <!-- Events on Vue using v-on -->
+        <button v-on:click="age++"> Get Older</button>
+        <button v-on:click="age--"> Get Younger</button>
+        <button @click="title = 'The title has changed'"> Change Title</button>
+    </div>
+
+    <div id="two-way-binding">
+        <p>{{ message }}</p>
+        <input v-model="message">
+    </div>
+    <script src="app.js"></script>
+    <script src="two-way.js"></script>
+
+
+
+</body>
+</html>
